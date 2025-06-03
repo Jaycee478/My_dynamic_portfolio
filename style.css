@@ -2,29 +2,29 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 0;
-    background-color: #10101014; /* pupler background */
-    color: #020202;
+    background-color: #1809bc14; /* black bluebackground */
+    color: #0e9caed4;
     line-height: 1.6;
     padding-bottom: 50px; /* Space for footer */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body.dark-mode {
-    background-color: #150c0c;
+    background-color: #1515c2;
     color: #cdb6b6d8;
 }
 
 header {
-    background-color: #000000; /* pupler header */
+    background-color: #0f488e; /* pupler header */
     color: white;
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+    box-shadow: 0 4px 8px rgba(45, 36, 171, 0.9);
 }
 
 header img {
     border-radius: 50%;
-    border: 4px solid rgba(0, 0, 0, 0.491);
+    border: 4px solid rgba(28, 44, 189, 0.491);
     margin-bottom: 10px;
 }
 
@@ -35,11 +35,11 @@ main {
 }
 
 section {
-    background-color: rgb(255, 251, 251);
+    background-color: rgb(20, 23, 179);
     padding: 25px;
     margin-bottom: 25px;
     border-radius: 10px;
-    box-shadow: 0 2px 5px rgba(228, 227, 227, 0.68);
+    box-shadow: 0 2px 5px rgba(81, 203, 228, 0.68);
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 
@@ -99,8 +99,8 @@ footer {
 }
 
 #themeToggle {
-    background-color: #ffffff; /* black button */
-    color: #f1eeee;
+    background-color: #2dcbbb; /* black button */
+    color: #25abb9f1;
     padding: 8px 15px;
     border: none;
     border-radius: 5px;
@@ -114,29 +114,29 @@ footer {
 }
 
 .project-card {
-    border: 1px solid #fffefe63;
+    border: 1px solid #2799b363;
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 8px;
-    background-color: #cdb6b602;
+    background-color: #0ca8ab02;
     text-align: left;
     transition: transform 0.2s ease, background-color 0.3s ease;
 }
 
 body.dark-mode .project-card {
     background-color: #ffffff;
-    border-color: #000000;
+    border-color: #2f16a1;
 }
 
 .project-card:hover {
     transform: translateY(-3px);
-    box-shadow: 0 4px 8px rgba(252, 255, 255, 0.15);
+    box-shadow: 0 4px 8px rgba(14, 152, 152, 0.15);
 }
 
 .project-card h3 {
-    color: #000000;
+    color: #2e2eff;
     margin-top: 0;
 }
 body.dark-mode .project-card h3 {
-    color: #a125da;
+    color: #0d16ba;
 }
