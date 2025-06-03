@@ -1,0 +1,142 @@
+/* style.css */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: #10101014; /* pupler background */
+    color: #020202;
+    line-height: 1.6;
+    padding-bottom: 50px; /* Space for footer */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+    background-color: #150c0c;
+    color: #cdb6b6d8;
+}
+
+header {
+    background-color: #000000; /* pupler header */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.9);
+}
+
+header img {
+    border-radius: 50%;
+    border: 4px solid rgba(0, 0, 0, 0.491);
+    margin-bottom: 10px;
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: rgb(255, 251, 251);
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(228, 227, 227, 0.68);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+body.dark-mode section {
+    background-color: #000000;
+    box-shadow: 0 2px 5px rgba(99, 91, 91, 0.3);
+}
+
+h1, h2, h3 {
+    color: #dcc7c7; /* white for headings */
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3 {
+    color: #ffffff; /* black for dark mode headings */
+}
+
+.skill-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.skill-btn {
+    background-color: #000000; /* blue button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.skill-btn:hover {
+    background-color: #000000;
+    transform: translateY(-2px); /* Simple hover effect */
+}
+
+#skill-description {
+    margin-top: 15px;
+    font-style: italic;
+    min-height: 20px; /* Prevent layout shift */
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+}
+
+#themeToggle {
+    background-color: #ffffff; /* black button */
+    color: #f1eeee;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#themeToggle:hover {
+    background-color: #000000;
+}
+
+.project-card {
+    border: 1px solid #fffefe63;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #cdb6b602;
+    text-align: left;
+    transition: transform 0.2s ease, background-color 0.3s ease;
+}
+
+body.dark-mode .project-card {
+    background-color: #ffffff;
+    border-color: #000000;
+}
+
+.project-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(252, 255, 255, 0.15);
+}
+
+.project-card h3 {
+    color: #000000;
+    margin-top: 0;
+}
+body.dark-mode .project-card h3 {
+    color: #a125da;
+}
